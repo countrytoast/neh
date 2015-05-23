@@ -1,8 +1,19 @@
-  var express = require('express')
+  var express = require('express');
+  var exphbs = require('express3-handlebars');
   var app = express();
+  app.engine('handlebars',
+  exphbs({defaultLayout: 'main'}));
+
+app.set('view engine', 'handlebars');
 
 app.get('/', function (req, res){
-	res.send('hello World.');
+	var luckynumber = Math.round( Math.random() * 10 );
+	res.render('index',
+		{luckynumber: luckynumber
+		});
+});
+app.get('/about', function(req, res){
+	res.render('about');
 });
 
 app.use('/public', express.static('public'));
