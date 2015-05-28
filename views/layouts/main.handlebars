@@ -1,18 +1,47 @@
 <html>
-<head><title> This is my site</title></head>
+<head><title> This is my site</title>
+<meta charset="utf-8">
+<script src="/jquery/jquery.js"></script>
+<script src="/jquery-ui/jquery-ui.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+
+
+</script>
+</head>
 <body>
-	<div style='position: absolute; top: 0; height: 40px;'>
-	<h3> This is the header</h3>
-	</div>
- 	<div style='margin-top:60px;'>
-	{{{ body }}}
-	</div>
+    <header>
+    <h1>CGSI Interior Data Hub</h1>
+    <p>umbcgis@umbc.edu</p>
+  </header>
+<div id="tabs">
+  <ul>
+    <li><a href="#fragment-1"><span>Select Building</span></a></li>
+    <li><a href="#fragment-2"><span>Select Floor</span></a></li>
+    <li><a href="#fragment-3"><span>About CGSI</span></a></li>
+  </ul>
+  <div id="fragment-1">
 
 
-	<div style='position: absolute; bottom: 0; height: 40px;'>
-		<h3> This is the footer</h3>
-	</div>
+  </div>
+  <div id="fragment-2">
+  
+
+
+
+  </div>
+  <div id="fragment-3">
+  
+  </div>
+</div>
+
 
 
 </body>
+<script>
+$( "div#tabs" ).tabs();
+</script>
+
+ 
+
 </html>
