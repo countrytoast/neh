@@ -29,6 +29,8 @@ app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'));
 
 app.use('/jquery-ui', express.static(__dirname + '/node_modules/jquery-ui/'));
 
+app.use('/js', express.static(__dirname + '/js/'));
+
  
 
 var port = Number(process.env.PORT || 5000);
