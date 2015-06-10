@@ -71,3 +71,188 @@ var buildingstringshort = [
 "UC",
 "COMM",
 ];
+
+var ADfloors = [
+"Basement",
+"1",
+"2",
+"3",
+"4",
+"5",
+"6",
+"7",
+"8",
+"9",
+"10",
+
+];
+
+var LIBfloors = [
+"Sub Level",
+"Ground Level",
+"1",
+"2",
+"3",
+"4",
+"5",
+"6",
+"7",
+"Penthouse",
+"Roof",
+
+];
+
+var BIOLfloors = [
+"Basement",
+"1",
+"2",
+"3",
+"4",
+"Penthouse",
+"Roof",
+
+];
+
+var MEYRfloors= [
+"Basement",
+"1",
+"2",
+"3",
+"4",
+"5",
+"6",
+
+];
+
+var DHfloors= [
+"Basement",
+"1",
+];
+
+var ENGRfloors = [
+"Basement",
+"1",
+"2",
+"3",
+
+];
+
+var FAfloors = [
+"Basement",
+"1",
+"2",
+"3",
+"4",
+"5",
+"Penthouse",
+"Roof",
+
+];
+
+var ITEfloors = [
+"1",
+"2",
+"3",
+"4",
+"Penthouse",
+"Roof",
+
+];
+
+var LH1floors = [
+"Ground",
+"1",
+
+];
+
+var MPfloors = [
+"Basement",
+"1",
+"2",
+"3",
+"4",
+"Penthouse",
+"Roof",
+
+];
+
+var PAHBfloors = [
+"Basement",
+"1",
+"2",
+"3",
+"4",
+
+];
+
+var PHYSfloors = [
+"Basement",
+"1",
+"2",
+"3",
+"4",
+"Roof",
+
+];
+
+var PUPfloors = [
+"Basement",
+"1",
+"2",
+"3",
+"4",
+
+];
+
+var SHERfloors = [
+"Basement",
+"Ground",
+"1",
+"2",
+"3",
+"4",
+"5",
+"Roof",
+
+];
+
+var SDSCfloors = [
+"1",
+
+];
+
+var TEC2floors = [
+"1",
+
+];
+
+var TRCfloors = [
+"Basement",
+"Ground",
+"1",
+"2",
+
+];
+
+var THACfloors = [
+"1",
+
+];
+
+var UCfloors = [
+"1",
+"2",
+"3",
+
+];
+
+var COMMfloors = [
+"Basement",
+"1",
+"2",
+"3",
+"4",
+"L",
+"M",
+
+]
